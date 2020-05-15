@@ -9,3 +9,5 @@ export class OpeningHours {
     dayOfWeek?: number;
     hours?: OpeningHour[];
 }
+
+export function isOpen(openingHours: OpeningHours, defaultOpen: boolean, date?: Date);
