@@ -1,0 +1,23 @@
+{
+  "name": "delivr-opening-hours",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "types": "openingHours.d.ts",
+  "scripts": {
+    "test": "mocha '**/*.test.js' --recursive --reporter mocha-unfunk-reporter --timeout 6000 --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "latest",
+    "@types/browserify": "latest",
+    "typescript": "next"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.2",
+    "mocha-unfunk-reporter": "^0.4.0"
+  }
+}
