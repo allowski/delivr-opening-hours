@@ -10,4 +10,4 @@ export class OpeningHours {
     hours?: OpeningHour[];
 }
 
-export function isOpen(openingHours: OpeningHours, defaultOpen: boolean, date?: Date);
+export function isOpen(openingHours: OpeningHours[], defaultOpen: boolean, date?: Date);
